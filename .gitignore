@@ -1,4 +1,7 @@
 *~
 .DS_Store
 .DS_Store?
-/node_modules
+.nyc_output/
+build/
+docs/
+node_modules/

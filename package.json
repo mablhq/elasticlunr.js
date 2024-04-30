@@ -80,7 +80,8 @@
   },
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc mocha -R spec",
-    "build": "cross-env NODE_ENV=production webpack --mode production --env production -p"
+    "build": "cross-env NODE_ENV=production webpack --mode production --env production -p",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "depromisify": "^1.0.0"
